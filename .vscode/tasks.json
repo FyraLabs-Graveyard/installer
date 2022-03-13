@@ -10,7 +10,10 @@
 		{
 			"label": "Install project",
 			"type": "shell",
-			"command": "meson install "
+			"command": "meson install",
+			"dependsOn": [
+				"Configure project"
+			],
 		}
 	]
 }
