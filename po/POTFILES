@@ -1,0 +1,7 @@
+data/org.ultramarine.installer.desktop.in
+data/org.ultramarine.installer.appdata.xml.in
+data/org.ultramarine.installer.gschema.xml
+src/window.ui
+src/main.py
+src/window.py
+
