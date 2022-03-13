@@ -4,5 +4,5 @@ Exec=ultramarine-installer
 Icon=org.ultramarine.installer
 Terminal=false
 Type=Application
-Categories=GTK;
+Categories=GTK;System;
 StartupNotify=true
