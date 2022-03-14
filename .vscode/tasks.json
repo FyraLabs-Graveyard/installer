@@ -4,13 +4,13 @@
 		{
 			"label": "Configure project",
 			"type": "shell",
-			"command": "meson setup --reconfigure --prefix=${workspaceFolder}/builddir/install builddir",
+			"command": "meson setup --wipe --prefix=${workspaceFolder}/builddir/install builddir",
 			"problemMatcher": []
 		},
 		{
 			"label": "Install project",
 			"type": "shell",
-			"command": "meson install",
+			"command": "pushd ${cwd}/builddir && meson install && popd",
 			"dependsOn": [
 				"Configure project"
 			],
